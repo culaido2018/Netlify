@@ -1,0 +1,36 @@
+functionsDirectory = "C:\\laragon\\nuxt\\netlify\\netlify\\functions"
+functionsDirectoryOrigin = "ui"
+headers = []
+redirects = []
+
+[functions]
+
+  [functions."*"]
+
+[[plugins]]
+origin = "ui"
+package = "@netlify/plugin-gatsby"
+pinned_version = "3"
+
+  [plugins.inputs]
+
+[build]
+publish = "C:\\laragon\\nuxt\\netlify\\public"
+publishOrigin = "ui"
+command = "npm run build"
+commandOrigin = "ui"
+functions = "C:\\laragon\\nuxt\\netlify\\netlify\\functions"
+
+  [build.environment]
+
+  [build.processing]
+
+    [build.processing.css]
+
+    [build.processing.html]
+
+    [build.processing.images]
+
+    [build.processing.js]
+
+  [build.services]
