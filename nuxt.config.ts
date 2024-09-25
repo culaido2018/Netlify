@@ -12,7 +12,13 @@ export default defineNuxtConfig({
         layoutTransition: { name: 'layout', mode: 'out-in' }
     },
     
-
+    site: {
+        url: 'https://abc.com',
+        identity: {
+            type: 'Person',
+        },
+    },
+  
     colorMode: {
         classSuffix: '',
         preference: 'dark',
@@ -22,7 +28,7 @@ export default defineNuxtConfig({
     compatibilityDate: '2024-04-03',
     devtools: { enabled: true },
     modules: [
-        'nuxt-icon',
+        '@nuxt/icon',
         '@nuxt/content',
         '@vueuse/nuxt',
         '@nuxtjs/color-mode',
