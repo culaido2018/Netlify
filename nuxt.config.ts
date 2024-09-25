@@ -35,6 +35,7 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         '@stefanobartoletti/nuxt-social-share',
         'nuxt-og-image',
+        '@nuxt/image',
         '@nuxtjs/robots'
     ],
     content: {
