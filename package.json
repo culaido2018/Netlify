@@ -23,6 +23,7 @@
     "nuxt-icon": "^1.0.0-beta.7",
     "nuxt-og-image": "^3.0.2",
     "vue": "latest",
+    "vue-content-loader": "^2.0.1",
     "vue-router": "latest"
   }
 }
